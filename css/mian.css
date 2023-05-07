@@ -1,0 +1,29 @@
+:root{
+    --theme-color: white;
+    --primary-color: #124f88;
+    --secundary-color:#33d4a7;
+    --text-color-inverse: black;
+    --text-color:black;
+    --navbar-shallow-color:#e5e5e5;
+    --menu-mobile-background-color: #efefef;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: var(--theme-color);
+    color: var(--text-color);
+    padding-top: 70px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section [id]{
+    scroll-padding-top: 70px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}

@@ -1,0 +1,36 @@
+.paginasaprender{
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.aprende-titulo{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.aprende-aprende{
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 25);
+    border-radius: 42px;
+    padding: 0.5em 0.7em;
+    margin: 5px;
+}
+
+.aprende-list{
+    list-style: none;
+    padding: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width: 950px){
+    .aprende-aprende{
+        font-size: 25px;
+        margin: 10px;
+    }
+}

@@ -1,0 +1,45 @@
+ .inicio {
+    width: 400px;
+    margin: 0 auto; 
+    text-align: center;
+ }
+
+ section article {
+    transition: all 0.4s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+ }
+
+ section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.699);
+ }
+
+ @media (min-width: 950px){
+   .inicio {
+      display: flex;
+      width: 1000px;
+      margin: 0 auto; 
+   }
+  
+   section article {
+      transition: all 0.4s ease;
+      background-color: #fff;
+      margin: 1rem 0;
+      border-radius: 0.5rem;
+      padding: 0.25rem 0;
+      cursor: pointer;
+   }
+  
+   section article:hover {
+      box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.699);
+   }
+ }
+
+ footer {
+   background-color: #222;
+   padding: 0.1rem;
+   color: #fff;
+}
